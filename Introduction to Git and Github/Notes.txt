@@ -1,0 +1,56 @@
+list files - dir
+move - cd  name
+back 1 level - cd ..
+clear - cls 
+autocomplete -  TAB key
+new file - echo hello > hello.txt
+remove - rmdir name /S /Q
+
+How to use shh key:
+1. ssh-keygen -t ed25519 -C my_email_here
+2. Enter
+3. Password
+4. Password confirmation
+5. Navigate to ssh director
+cd /c/Users/.../.ssh/
+6. Use cat followerd by public key name
+7. Copy key
+8. Paste key in github
+9. Init agent:
+eval $(ssh-agent -s)
+ssh-add file_name
+
+Git configuration 
+git config --global user.email "my_email"
+git config --global user.name my_nickname
+
+Commit
+git add *
+git commit -m "A good mensage"
+
+Print files status
+git status 
+
+Print Git configurations
+git config --list
+
+Reset email
+git config --global --unset user.email
+
+Reset nickname
+git config --global --unset user.nickname
+
+Add remote reposioty from  Github
+git remote add origin https://github....
+
+Push files to Github
+git push origin master
+
+How to solve: 
+failed to push some refs to 'https://...
+1. git pull origin master
+2. Manually fix error
+3. git push origin master
+
+Print the remote location of repositories
+git remote -v
