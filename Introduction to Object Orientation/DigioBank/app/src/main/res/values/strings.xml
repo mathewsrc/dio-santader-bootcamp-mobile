@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">DigioBank</string>
-    <string name="deposit_message">You deposited %d.</string>
-    <string name="withdraw_message">You withdrew %d.</string>
-</resources>
